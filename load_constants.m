@@ -9,6 +9,7 @@ rho_steel = 7900;
 g = 9.81;
 w = 1;
 theta = 25*pi/180;
+J_gear = 0.1;
 
 n_step = 2*(h_total/h_step - 1) + 2*n_stepEnd;
 m_stepTotal = m_stepEach * n_step;
